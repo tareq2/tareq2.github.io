@@ -1,0 +1,969 @@
+/*Telerik RadGrid Office2007 Skin*/
+
+/*global*/
+
+.RadGrid_Office2007
+{
+	border:1px solid #3b5a82;
+	background:#fff;
+	color:#27413e;
+}
+
+.RadGrid_Office2007,
+.MasterTable_Office2007,
+.DetailTable_Office2007,
+.GroupPanel_Office2007 table,
+.GridEditForm_Office2007 table,
+.GridToolTip_Office2007
+{
+	font:11px tahoma,verdana,arial,sans-serif;
+}
+
+.MasterTable_Office2007,
+.DetailTable_Office2007
+{
+    border-collapse:separate !important;
+}
+
+.GridRow_Office2007 td,
+.GridAltRow_Office2007 td,
+.GridEditRow_Office2007 td,
+.GridFooter_Office2007 td,
+.GridGroupFooter_Office2007 td,
+.GridFilterRow_Office2007 td,
+.GridHeader_Office2007,
+.ResizeHeader_Office2007
+{
+	padding-left:4px;
+	padding-right:4px;
+}
+
+.RadGrid_Office2007 .rgAdd,
+.RadGrid_Office2007 .rgRefresh,
+.RadGrid_Office2007 .rgEdit,
+.RadGrid_Office2007 .rgDel,
+.RadGrid_Office2007 .rgFilter,
+.RadGrid_Office2007 .rgPagePrev,
+.RadGrid_Office2007 .rgPageNext,
+.RadGrid_Office2007 .rgPageFirst,
+.RadGrid_Office2007 .rgPageLast,
+.RadGrid_Office2007 .rgExpand,
+.RadGrid_Office2007 .rgCollapse,
+.RadGrid_Office2007 .rgSortAsc,
+.RadGrid_Office2007 .rgSortDesc,
+.RadGrid_Office2007 .rgUpdate,
+.RadGrid_Office2007 .rgCancel
+{
+	width:16px;
+	height:16px;
+	border:0;
+	padding:0;
+	background-color:transparent;
+	background-image:url('WebResource.axd?d=0QTcN9A18I_xywRurk5WcXMtC1G0YC9nKB1OaoIurh_8kOHWk6_htXDDY9ChUkFnFjvlMBnhjkSc_cmq442oiw2&t=633631350440000000');
+	background-repeat:no-repeat;
+	vertical-align:middle;
+	cursor:pointer;
+}
+
+.GroupPanelItems_Office2007 input,
+.GridCommandRow_Office2007 img,
+.GridHeader_Office2007 input,
+.GridFilterRow_Office2007 img,
+.GridPager_Office2007 img
+{
+	vertical-align:middle;
+}
+
+/*header*/
+
+.GridHeaderDiv_Office2007
+{
+	background:url('WebResource.axd?d=0QTcN9A18I_xywRurk5WcXMtC1G0YC9nKB1OaoIurh_8kOHWk6_htXDDY9ChUkFnFjvlMBnhjkSc_cmq442oiw2&t=633631350440000000') 0 -1616px repeat-x #fafafa;
+}
+
+.GridHeader_Office2007,
+.ResizeHeader_Office2007
+{
+	border-left:1px solid #9eb6ce;
+	border-bottom: solid 1px #9eb6ce;
+	padding-top:3px;
+	padding-bottom:2px;
+	background:url('WebResource.axd?d=0QTcN9A18I_xywRurk5WcXMtC1G0YC9nKB1OaoIurh_8kOHWk6_htXDDY9ChUkFnFjvlMBnhjkSc_cmq442oiw2&t=633631350440000000') 0 -200px repeat-x #d3dbe9;
+	text-align:left;
+	font-size:12px;
+	font-weight:bold;
+	cursor:hand;
+}
+
+.GridHeader_Office2007:first-child,
+.ResizeHeader_Office2007:first-child
+{
+	border-left:0;
+	padding-left:5px;
+}
+
+.GridHeader_Office2007 a
+{
+	color:#27413e;
+	text-decoration:none;
+}
+
+/*rows*/
+
+.GridFilterRow_Office2007 td,
+.GridRow_Office2007 td,
+.GridAltRow_Office2007 td,
+.GridEditRow_Office2007 td,
+.GridFooter_Office2007 td,
+.GridGroupFooter_Office2007 td
+{
+	border:1px #d0d7e5;
+	border-style:none none solid solid;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.GridFilterRow_Office2007>td:first-child,
+.GridRow_Office2007>td:first-child,
+.GridAltRow_Office2007>td:first-child,
+.GridEditRow_Office2007>td:first-child,
+.GridFooter_Office2007>td:first-child,
+.GridGroupFooter_Office2007>td:first-child
+{
+	border-left-color:#fff;
+}
+
+.GridRow_Office2007 a,
+.GridAltRow_Office2007 a,
+.GridEditRow_Office2007 a,
+.GridFooter_Office2007 a,
+.GridGroupFooter_Office2007 a,
+.GridEditForm_Office2007 a
+{
+	color:#27413e;
+}
+
+.SelectedRow_Office2007
+{
+	background:url('WebResource.axd?d=0QTcN9A18I_xywRurk5WcXMtC1G0YC9nKB1OaoIurh_8kOHWk6_htXDDY9ChUkFnFjvlMBnhjkSc_cmq442oiw2&t=633631350440000000') 0 -800px repeat-x #f1c15f;
+}
+
+.SelectedRow_Office2007 td,
+.SelectedRow_Office2007>td:first-child
+{
+	border-color:#f29536;
+}
+
+.ActiveRow_Office2007,
+.GridRowOver_Office2007
+{
+	background:none #f9d99f;
+}
+
+.ActiveRow_Office2007 td,
+.ActiveRow_Office2007>td:first-child,
+.GridRowOver_Office2007 td,
+.GridRowOver_Office2007>td:first-child
+{
+	border-left-color:#f9d99f;
+	border-right-color:#f9d99f;
+}
+
+.GridEditRow_Office2007
+{
+	background:#ffffe1;
+}
+
+.GridEditRow_Office2007 td,
+.GridEditRow_Office2007>td:first-child
+{
+	border-left-color:#ffffe1;
+	border-bottom-color:#d0d7e5;
+}
+
+/*footer*/
+
+.GridFooter_Office2007,
+.GridGroupFooter_Office2007,
+.GridFooter_Office2007 a,
+.GridGroupFooter_Office2007 a
+{
+	color:#666;
+}
+
+/*status*/
+
+.GridPager_Office2007 span
+{
+	color:#193d65;
+}
+
+/*pager*/
+
+.GridPager_Office2007
+{
+    background:url('WebResource.axd?d=0QTcN9A18I_xywRurk5WcXMtC1G0YC9nKB1OaoIurh_8kOHWk6_htXDDY9ChUkFnFjvlMBnhjkSc_cmq442oiw2&t=633631350440000000') 0 -600px repeat-x #d7e5f7;
+    line-height:20px;
+}
+
+.GridPager_Office2007 td
+{
+	border-top:1px solid #567db0;
+	border-bottom:1px solid #fff;
+	padding:1px 4px 2px;
+}
+
+.GridPager_Office2007 div span,
+.GridPager_Office2007 a,
+.GridPager_Office2007 .sliderPagerLabel_Office2007
+{
+	color:#01285c;
+}
+
+.PagerLeft_Office2007
+{
+	float:left;
+}
+
+.PagerRight_Office2007
+{
+	float:right;
+}
+
+.PagerCenter_Office2007
+{
+	text-align:center;
+}
+
+.PagerCenter_Office2007 span
+{
+	vertical-align:middle;
+}
+
+.RadGrid_Office2007 .rgPagePrev
+{
+	background-position:5px -1388px;
+}
+
+.RadGrid_Office2007 .rgPageNext
+{
+	background-position:-22px -1388px;
+}
+
+.RadGrid_Office2007 .rgPageFirst
+{
+	background-position:4px -1356px;
+}
+
+.RadGrid_Office2007 .rgPageLast
+{
+	background-position:-20px -1356px;
+}
+
+/*sorting, reordering*/
+
+.GridHeader_Office2007 .rgSortAsc
+{
+	background-position:-21px -1262px;
+	height:10px;
+}
+
+.GridHeader_Office2007 .rgSortDesc
+{
+	background-position:4px -1262px;
+	height:10px;
+}
+
+.TopReorderIndicator_Office2007,
+.BottomReorderIndicator_Office2007
+{
+	width:9px !important;
+	height:12px !important;
+	margin-left:-4px;
+	background:url('WebResource.axd?d=0QTcN9A18I_xywRurk5WcXMtC1G0YC9nKB1OaoIurh_8kOHWk6_htXDDY9ChUkFnFjvlMBnhjkSc_cmq442oiw2&t=633631350440000000') 0 -1232px no-repeat;
+}
+
+.BottomReorderIndicator_Office2007
+{
+	background-position:-23px -1232px;
+}
+
+/*filtering*/
+
+.GridFilterRow_Office2007
+{
+	background:#fafafa;
+}
+
+.RadGrid_Office2007 .rgFilter
+{
+	background-position:2px -1196px;
+}
+
+.GridFilterRow_Office2007 input[type="text"]
+{
+	border:1px solid #7f9db9;
+	font:12px arial,verdana,sans-serif;
+	color:#27413e;
+	vertical-align:middle;
+}
+
+/*grouping*/
+
+.GroupPanel_Office2007
+{
+	border-bottom:1px solid #688caf;
+	background:url('WebResource.axd?d=0QTcN9A18I_xywRurk5WcXMtC1G0YC9nKB1OaoIurh_8kOHWk6_htXDDY9ChUkFnFjvlMBnhjkSc_cmq442oiw2&t=633631350440000000') repeat-x #9ebde5;
+	color:#fff;
+}
+
+.GroupPanel_Office2007 td
+{
+	padding:2px 4px;
+}
+
+.GroupPanel_Office2007 td td
+{
+	padding:0;
+}
+
+.GroupPanelItems_Office2007
+{
+	border:1px solid #325373;
+	background:#fff;
+	color:#000;
+	padding:1px 2px;
+}
+
+.GroupPanel_Office2007 .rgSortAsc
+{
+	background-position:-21px -1259px;
+}
+
+.GroupPanel_Office2007 .rgSortDesc
+{
+	background-position:4px -1258px;
+}
+
+.GroupHeader_Office2007
+{
+	background:#e4ecf7;
+	color:#567db0;
+	font:bold 11px verdana,sans-serif;
+}
+
+.GroupHeader_Office2007 td
+{
+	border-bottom:1px solid #d0d7e5;
+	padding:1px 4px 2px 5px;
+}
+
+.GroupHeader_Office2007 p
+{
+	padding:0;
+	margin:0;
+}
+
+.RadGrid_Office2007 .rgExpand
+{
+	background-position:2px -1294px;
+}
+
+.RadGrid_Office2007 .rgCollapse
+{
+	background-position:2px -1326px;
+}
+
+.GroupHeader_Office2007 td div
+{
+	top:-0.6em;
+}
+
+.GroupHeader_Office2007 td div div
+{
+	top:0;
+}
+
+/*editing*/
+
+.GridEditForm_Office2007
+{
+	border-bottom:1px solid #d0d7e5;
+}
+
+.GridEditForm_Office2007 input[type="text"],
+.GridEditForm_Office2007 input[type="password"],
+.GridEditForm_Office2007 textarea
+{
+	border:1px solid #7f9db9;
+	font:12px arial,verdana,sans-serif;
+	color:#27413e;
+}
+
+.RadGrid_Office2007 .rgUpdate
+{
+	background-position:3px -1549px;
+}
+
+.RadGrid_Office2007 .rgCancel
+{
+	background-position:2px -1581px;
+}
+
+/*hierarchy*/
+
+.DetailTable_Office2007
+{
+	border:1px solid #9eb6ce;
+	border-right:0;
+}
+
+/*command row*/
+
+.GridCommandRow_Office2007
+{
+	background:#fafafa;
+}
+
+.GridCommandRow_Office2007 td
+{
+	border-bottom:1px solid #688caf;
+	padding:2px 4px;
+}
+
+.GridCommandRow_Office2007 td td
+{
+	border:0;
+	padding:1px;
+}
+
+.GridCommandRow_Office2007 a
+{
+	color:#000;
+	text-decoration:none;
+}
+
+.RadGrid_Office2007 .rgAdd
+{
+	background-position:2px -1422px;
+}
+
+.RadGrid_Office2007 .rgRefresh
+{
+	background-position:5px -1453px;
+}
+
+.RadGrid_Office2007 .rgEdit
+{
+	background-position:2px -1486px;
+}
+
+.RadGrid_Office2007 .rgDel
+{
+	background-position:2px -1518px;
+}
+
+/*loading*/
+
+.LoadingPanel_Office2007
+{
+	background:url('WebResource.axd?d=0QTcN9A18I_xywRurk5WcXMtC1G0YC9nKB1OaoIurh_8kOHWk6_htXDDY9ChUkFn0L4uFs8bEsxiim1I-XzBbqBXVgyZ1OXMdFoIxuNNmsU1&t=633631350440000000') center center no-repeat #fff;
+}
+
+/*multirow select*/
+
+.GridRowSelector_Office2007
+{
+	background:#336;
+}
+
+/*row drag n drop*/
+
+.GridItemDropIndicator_Office2007
+{
+    border-top:1px dashed #666;
+}
+
+/*tooltip*/
+
+.GridToolTip_Office2007
+{
+	border:1px solid #767676;
+	padding:3px;
+	background:#cad9ee;
+	color:#000;
+}
+
+/*rtl*/
+
+.RadGridRTL_Office2007 .GridHeader_Office2007,
+.RadGridRTL_Office2007 .ResizeHeader_Office2007
+{
+	text-align:right;
+	cursor:hand;
+}
+
+.RadGridRTL_Office2007 .PagerLeft_Office2007,
+.RadGridRTL_Office2007 .GridPager_Office2007 .radslider
+{
+	float:right;
+}
+
+.RadGridRTL_Office2007 .PagerRight_Office2007
+{
+	float:left;
+}
+
+.RadGridRTL_Office2007 .GridHeader_Office2007:first-child,
+.RadGridRTL_Office2007 .ResizeHeader_Office2007:first-child
+{
+	border-left:1px solid #9eb6ce;
+	padding-left:4px;
+}
+
+.RadGridRTL_Office2007 .GridFilterRow_Office2007>td:first-child,
+.RadGridRTL_Office2007 .GridRow_Office2007>td:first-child,
+.RadGridRTL_Office2007 .GridAltRow_Office2007>td:first-child,
+.RadGridRTL_Office2007 .GridEditRow_Office2007>td:first-child,
+.RadGridRTL_Office2007 .GridFooter_Office2007>td:first-child,
+.RadGridRTL_Office2007 .GridGroupFooter_Office2007>td:first-child
+{
+	border-left-color:#d0d7e5;
+}
+
+.RadTabStrip_Office2007 .rtsLI,
+.RadTabStrip_Office2007 .rtsLink
+{
+	color: #000;
+}
+
+.RadTabStrip_Office2007 .rtsLevel1 .rtsLI,
+.RadTabStrip_Office2007 .rtsLevel1 .rtsLink
+{
+	color: #039;
+}
+
+.RadTabStripLeft_Office2007 .rtsUL .rtsLI,
+.RadTabStripRight_Office2007 .rtsUL .rtsLI
+{
+	width: 100%;
+    display: block;
+}
+
+.RadTabStripLeft_Office2007 .rtsLevel .rtsUL,
+.RadTabStripRight_Office2007 .rtsLevel .rtsUL
+{
+	width: 150px; /* default width */
+}
+
+.RadTabStrip_Office2007 .rtsLevel
+{
+	background-color: #fff;
+}
+
+.RadTabStrip_Office2007 .rtsLevel1
+{
+	background: #bbd7fa url('../images/my/Background.gif') repeat-x 0 100%;
+}
+
+.RadTabStrip_Office2007 .rtsLink
+{
+	text-decoration: none;
+}
+
+.RadTabStripTop_Office2007 .rtsOut,
+.RadTabStripBottom_Office2007 .rtsOut
+{
+	text-align:center;
+}
+
+.RadTabStrip_Office2007 .rtsIn
+{
+	padding: 0 5px;
+}
+
+.RadTabStrip_Office2007 .rtsLink
+{
+	font: 11px/23px "segoe ui",arial,sans-serif;
+}
+
+.RadTabStrip_Office2007 .rtsLevel .rtsLink:hover
+{
+	color: #47D; 
+	text-decoration: none;
+}
+
+.RadTabStrip_Office2007 .rtsLevel1 .rtsLink:hover,
+.RadTabStrip_Office2007 .rtsLevel1 .rtsLink:hover .rtsOut,
+.RadTabStrip_Office2007 .rtsLevel1 .rtsSelected,
+.RadTabStrip_Office2007 .rtsLevel1 .rtsSelected .rtsOut
+{
+	background: transparent url('../images/my/TabStripStates.gif') no-repeat;
+}
+
+.RadTabStrip_Office2007 .rtsLevel1 .rtsLink:hover
+{ 
+	color: #47D;
+	text-decoration: none;
+}
+
+.RadTabStrip_Office2007 .rtsLevel .rtsSelected,
+.RadTabStrip_Office2007 .rtsLevel .rtsSelected:hover
+{
+	color: #039; 
+	text-decoration: underline; 
+}
+
+.RadTabStrip_Office2007 .rtsLevel1 .rtsSelected,
+.RadTabStrip_Office2007 .rtsLevel1 .rtsSelected:hover
+{ 
+	text-decoration: none;
+}
+
+/* disabled tabs */
+
+.RadTabStrip_Office2007 .rtsLevel .rtsDisabled,
+.RadTabStrip_Office2007 .rtsLevel .rtsDisabled:hover,
+.RadTabStrip_Office2007 .rtsLevel .rtsDisabled:hover .rtsOut
+{
+	color: #888;
+	cursor: default;
+	background-image: none;
+}
+
+.RadTabStrip_Office2007 .rtsDisabled,
+.RadTabStrip_Office2007 .rtsDisabled:hover,
+.RadTabStrip_Office2007_disabled .rtsDisabled,
+.RadTabStrip_Office2007_disabled .rtsDisabled:hover
+{
+	color: #ccc;
+	cursor: default;
+}
+
+.RadTabStripLeft_Office2007 .rtsLI .rtsIn,
+.RadTabStripRight_Office2007 .rtsLI .rtsIn
+{
+	padding: 0 10px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.RadTabStripLeft_Office2007 .rtsUL,
+.RadTabStripRight_Office2007 .rtsUL
+{
+	width: 100%;
+}
+
+.RadTabStrip_Office2007 .rtsImg
+{
+	border:0;
+	vertical-align:middle;
+	width: 16px;
+	margin: 0 5px 0 0;
+}
+
+.RadTabStripLeft_Office2007 .rtsLevel .rtsLink,
+.RadTabStripRight_Office2007 .rtsLevel .rtsLink
+{
+	line-height: 30px;
+}
+
+.RadTabStripLeft_Office2007 .rtsLevel .rtsTxt,
+.RadTabStripRight_Office2007 .rtsLevel .rtsTxt
+{
+	zoom: 1;
+}
+
+/* Scrolling */
+.RadTabStrip_Office2007 .rtsNextArrow,
+.RadTabStrip_Office2007 .rtsPrevArrow,
+.RadTabStrip_Office2007 .rtsPrevArrowDisabled,
+.RadTabStrip_Office2007 .rtsNextArrowDisabled
+{
+	height:21px;
+	width:13px;
+	background:transparent url('../images/my/ScrollArrows.gif') no-repeat;
+}
+
+.RadTabStrip_Office2007 .rtsNextArrow { background-position: 100% 10px; }
+.RadTabStrip_Office2007 .rtsPrevArrow { background-position: 0 10px; }
+.RadTabStrip_Office2007 .rtsNextArrowDisabled { background-position: 100% 100%; }
+.RadTabStrip_Office2007 .rtsPrevArrowDisabled { background-position: 0 100%; }
+
+/* Orientation: Top */
+
+.RadTabStripTop_Office2007 .rtsLevel1 .rtsLink { padding-left: 5px; }
+.RadTabStripTop_Office2007 .rtsLevel1 .rtsLink .rtsOut { padding-right: 5px; }
+
+.RadTabStripTop_Office2007 .rtsLevel1 .rtsLink:hover,
+.RadTabStripTop_Office2007 .rtsLevel1 .rtsSelected { background-position: 0 0; }
+.RadTabStripTop_Office2007 .rtsLevel1 .rtsLink:hover .rtsOut,
+.RadTabStripTop_Office2007 .rtsLevel1 .rtsSelected .rtsOut { background-position: 100% 0; }
+
+.RadTabStripTop_Office2007 .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripTop_Office2007 .rtsLevel1 .rtsUL { margin: 4px 0 0; }
+.RadTabStripTop_Office2007 .rtsLevel2 .rtsIn { padding: 3px 10px 0; }
+
+/* Orientation: Bottom */
+
+.RadTabStripBottom_Office2007 .rtsLevel1 .rtsLink { padding-left: 5px; }
+.RadTabStripBottom_Office2007 .rtsLevel1 .rtsLink .rtsOut { padding-right: 5px; }
+
+.RadTabStripBottom_Office2007 .rtsLevel1 .rtsLink:hover,
+.RadTabStripBottom_Office2007 .rtsLevel1 .rtsSelected { background-position: 0 -60px; }
+.RadTabStripBottom_Office2007 .rtsLevel1 .rtsLink:hover .rtsOut,
+.RadTabStripBottom_Office2007 .rtsLevel1 .rtsSelected .rtsOut { background-position: 100% -60px; }
+
+.RadTabStripBottom_Office2007 .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripBottom_Office2007 .rtsLevel1 { padding-bottom: 4px; }
+.RadTabStripBottom_Office2007 .rtsLevel2 .rtsIn { padding: 0 10px 3px; }
+
+/* Orientation: Left */
+
+.RadTabStripLeft_Office2007 .rtsLI { text-align: right;  }
+
+.RadTabStripLeft_Office2007 .rtsLevel { float: left; }
+
+.RadTabStripLeft_Office2007 .rtsLevel1 .rtsLink { padding-left: 10px; }
+
+.RadTabStripLeft_Office2007 .rtsLevel1 .rtsLink:hover,
+.RadTabStripLeft_Office2007 .rtsLevel1 .rtsSelected { background-position: 0 -30px; }
+.RadTabStripLeft_Office2007 .rtsLevel1 .rtsLink:hover .rtsOut,
+.RadTabStripLeft_Office2007 .rtsLevel1 .rtsSelected .rtsOut { background-position: 100% -30px; }
+
+.RadTabStripLeft_Office2007 .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripLeft_Office2007 .rtsLevel1 { padding-left: 4px; }
+.RadTabStripLeft_Office2007 .rtsLevel1 .rtsUL { padding: 4px 0; }
+.RadTabStripLeft_Office2007 .rtsLevel2 .rtsIn { padding: 0 10px; }
+
+/* Orientation: Right */
+
+.RadTabStripRight_Office2007 .rtsLevel { float: right; }
+
+.RadTabStripRight_Office2007 .rtsLevel1 .rtsLink { padding-left: 10px; }
+
+.RadTabStripRight_Office2007 .rtsLevel1 .rtsLink:hover,
+.RadTabStripRight_Office2007 .rtsLevel1 .rtsSelected { background-position: 0 -90px; }
+.RadTabStripRight_Office2007 .rtsLevel1 .rtsLink:hover .rtsOut,
+.RadTabStripRight_Office2007 .rtsLevel1 .rtsSelected .rtsOut { background-position: 100% -90px; }
+
+.RadTabStripRight_Office2007 .rtsLevel2 .rtsSelected { text-decoration: underline; }
+
+.RadTabStripRight_Office2007 .rtsLevel1 { padding-right: 4px; }
+.RadTabStripRight_Office2007 .rtsLevel1 .rtsUL { padding: 4px 0; }
+.RadTabStripRight_Office2007 .rtsLevel2 .rtsIn { padding: 0 10px; }
+
+.RadTabStrip,
+.RadTabStrip *,
+.RadTabStripVertical,
+.RadTabStripVertical *
+{
+	margin: 0;
+	padding: 0;
+}
+
+.RadTabStrip .rtsLevel
+{
+	clear:both;
+	overflow: hidden;
+	width: 100%;
+	position: relative;
+}
+
+* html .RadTabStrip .rtsLevel
+{
+	position:static;
+}
+
+*+html .RadTabStrip .rtsLevel
+{
+	position:static;
+}
+
+.RadTabStrip .rtsScroll
+{
+	width: 10000px;
+	white-space:nowrap;
+}
+
+/* clear float; for IE - inline-block display */
+.RadTabStripVertical:after,
+.RadTabStrip .rtsLevel .rtsUL:after,
+.RadTabStripVertical .rtsLevel .rtsUL:after
+{
+	content: "."; 
+	display: block; 
+	height: 0;
+	clear: both; 
+	visibility: hidden;
+}
+
+.RadTabStrip .rtsUL
+{
+	margin:0;
+	padding:0;
+	overflow: hidden;
+	float:left;
+}
+
+.RadTabStrip_rtl .rtsUL
+{
+	float: right;
+}
+
+.RadTabStripVertical .rtsLevel
+{
+	overflow: hidden;
+	height: 100%;
+}
+
+.RadTabStrip .rtsLI
+{
+	overflow: hidden;
+	list-style-type:none;
+	float:left
+}
+
+* html .RadTabStrip .rtsLI
+{
+	display:inline;
+	zoom: 1;
+	float:none;
+}
+
+*+html .RadTabStrip .rtsLI
+{
+	display:inline;
+	zoom: 1;
+	float:none;
+}
+
+.RadTabStripVertical .rtsLI
+{
+	float: none;
+	display: -moz-inline-block;
+	display: inline-block;
+	list-style-type:none;
+	overflow: hidden;
+}
+
+.RadTabStrip .rtsLink,
+.RadTabStripVertical .rtsLink
+{
+	display:block;
+	outline:none;
+	cursor: pointer;
+}
+
+.RadTabStripVertical .rtsLink
+{
+	zoom: 1;
+}
+
+.RadTabStrip .rtsOut,
+.RadTabStripVertical .rtsOut
+{
+	display:block;
+}
+
+.RadTabStrip .rtsIn,
+.RadTabStripVertical .rtsIn
+{
+	display:block;
+	/*width:100%;   /* IE hiding long text (required tab width however) */
+}
+
+.RadTabStrip .rtsPrevArrow,
+.RadTabStrip .rtsNextArrow,
+.RadTabStrip .rtsPrevArrowDisabled,
+.RadTabStrip .rtsNextArrowDisabled
+{
+	font-size:0;
+	display:block;
+	text-indent:-9999px;
+	outline:none;
+}
+
+.RadTabStrip .rtsCenter
+{
+	text-align: center;
+}
+
+.RadTabStrip .rtsImg
+{
+	border: none;
+}
+.RadTabStrip .rtsImg+.rtsTxt { display: -moz-inline-box; }
+.RadTabStrip .rtsTxt { display: inline-block; }
+
+.RadTabStrip .rtsRight .rtsUL
+{
+	float:right;
+}
+
+.RadTabStrip .rtsCenter .rtsUL
+{
+	display: -moz-inline-box;
+	display: inline-block;
+	float:none;
+}
+
+.RadTabStrip .rtsBreak
+{
+	height: 0;
+	width: 0;
+	font-size: 0;
+	line-height: 0;
+	display: block;
+	clear: left;
+	margin-top: -2px;
+}
+
+* html .RadTabStrip .rtsCenter .rtsUL { display: inline-block; }
+* html .RadTabStrip .rtsCenter .rtsUL { display: inline; }
+
+*+html .RadTabStrip .rtsCenter .rtsUL { display: inline-block; }
+*+html .RadTabStrip .rtsCenter .rtsUL { display: inline; }
+
+.RadTabStrip_rtl .rtsLI
+{
+	float:right;
+}
+
+* html .RadTabStrip_rtl .rtsLI
+{
+	float:none;
+}
+
+*+html .RadTabStrip_rtl .rtsLI
+{
+	float:none;
+}
+
+@media screen and (min-width:50px)
+{
+	:root .rtsScroll
+	{
+		width: auto;
+	}
+	
+	:root .rtsLI
+	{
+		float:none;
+		display: inline-block;
+	}
+}
+
+.RadTabStripVertical .rtsUL .rtsLI
+{
+	line-height: 0;
+	font-size: 0;
+}
+
+.RadTabStripVertical .rtsUL li.rtsSeparator
+{
+	display: none;
+}
